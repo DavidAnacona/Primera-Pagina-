@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso React</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="encabezado">
+        <img src="https://lh3.google.com/u/0/ogw/ADGmqu9S1Rv1_-qa-qn56btOj79yHSobM1Axbx8BtP8a=s32-c-mo" alt="foto">
+        <h1>David Castellanos</h1>
+    </div>
+    <div class="cuerpo">
+        <div class="texto">
+            <h1>About me</h1>
+        </div>
+        <p class="texto1">Hey! I'm <strong>David</strong> Coding has changed my world. It's not just about apps.
+            Learning to code gave me problem-solving skills and a way to communicate with others on a technical level. I
+            can also develop websites and use my coding skills to get a better job. And I learned it all at
+            <strong>Sololearn</strong> where they build your self-esteem and keep you motivated. Join me in this
+            rewarding journey. You'll have fun, get help, and learn along the way!</p>
+        <p class="texto2">"Declare variables, not war"</p>
+    </div>
+
+    <div class="Tabla">
+        <h1 class="texto">My coding Schedule</h1>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>8-8:30</td>
+                <td class="selected">Learn</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9-10</td>
+                <td></td>
+                <td class="selected">Practice</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1-1:30</td>
+                <td></td>
+                <td></td>
+                <td class="selected">Play</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:45-5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Code</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6-6:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Discuss</td>
+            </tr>
+        </table>
+    </div>
+    <div class="Tabla">
+        <h1 class="texto">Skills</h1>
+        <div>
+            <p>Html</p>
+            <progress min="0" max="100" value="80"></progress>
+            <p>C#</p>
+            <progress min="0" max="100" value="60"></progress>
+            <p>Sql</p>
+            <progress min="0" max="100" value="40"></progress>
+        </div>
+    </div>
+    <div class="Tabla">
+        <h1 class="texto">My media</h1>
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/Py96zzymLA4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="Tabla">
+        <h1 class="texto">Contact</h1>
+        <form>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="email" id="email" placeholder="Correo">
+            <input type="text" id="numero" placeholder="Numero">
+            <button onclick=funcion(event)>Enviar</button>
+        </form>
+    </div>
+    
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('user_4XdwhtJc2uCBKJFcTtgVr')
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

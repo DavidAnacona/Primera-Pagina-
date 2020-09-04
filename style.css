@@ -1,0 +1,87 @@
+html{
+    background: #3f3f3f;
+}
+.encabezado{
+    margin: 10px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://www.sololearn.com/Uploads/header.jpg);
+}
+
+.encabezado > h1 {
+    color: white;
+}
+.encabezado > img{
+    width: 50px;
+    border-radius: 1.5rem;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 10px 2px;
+    border-radius: 5px;
+}
+
+.texto{
+    border: 5px dashed #33EBFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #33EBFF;
+
+}
+.texto2{
+    align-self: flex-end;
+    text-align: right;
+}
+.Tabla{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin: 10px 2px;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+}
+table, tr, td{
+    border: 2px #FFA533 solid;
+    border-collapse: collapse;
+}
+.selected{
+    background: red;
+    color: white;
+}
+progress{
+    width: 25rem;
+    height: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input{
+    width: 25rem;
+    height: 2rem;
+    background: lightblue;
+    border-radius: 5px;
+}
+button{
+    background: lightblue;
+    border-radius: 5px;
+    height: 2.3rem;
+    color: white;
+}
+button:hover{
+    background: red;
+}
